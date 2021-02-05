@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+*{
+    background-color:rgb(255, 240, 246, 0.5);
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 50;
+}
+
+
+.title {
+    font-family: 'Sriracha', cursive;
+    font-size: 90px;
+}
+
+.container{
+    font-family: 'Paprika', cursive;
+    font-size: 250px;
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content:space-evenly;
+}
+
+.box {
+    font-size: 30px;
+}
+
+
+#paragraphuno {
+    
+    font-size: 35px;
+}
+
+
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.card{
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+}
