@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap');
+
+
+
+*{
+    background-color:rgb(255, 240, 246, 0.5);
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 35px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.title {
+    font-family: 'Sriracha', cursive;
+    font-size: 90px;
+}
+
+.container{
+    font-family: 'Paprika', cursive;
+    font-size: 30px;
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content:space-evenly;
+}
+
+
+#blog-container{
+    width:960px;
+    margin:0;
+    padding: 0px;
+}
